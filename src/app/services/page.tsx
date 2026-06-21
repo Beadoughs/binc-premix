@@ -3,7 +3,6 @@ import type { ElementType } from "react";
 import Link from "next/link";
 import { Home, Building2, Truck, Package, ArrowRight, CheckCircle2, Phone } from "lucide-react";
 import { SERVICES, PHONE, PHONE_HREF } from "@/lib/utils";
-import SectionHeader from "@/components/ui/SectionHeader";
 import CTABanner from "@/components/ui/CTABanner";
 
 export const metadata: Metadata = {

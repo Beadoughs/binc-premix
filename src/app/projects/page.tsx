@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { MapPin, ArrowRight } from "lucide-react";
-import SectionHeader from "@/components/ui/SectionHeader";
 import CTABanner from "@/components/ui/CTABanner";
 
 export const metadata: Metadata = {

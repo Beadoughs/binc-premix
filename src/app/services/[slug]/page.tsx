@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import type { ElementType } from "react";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { Home, Building2, Truck, Package, CheckCircle2, ArrowRight, Phone, MapPin, Star } from "lucide-react";
+import { Home, Building2, Truck, Package, CheckCircle2, Phone, MapPin, Star } from "lucide-react";
 import { SERVICES, PHONE, PHONE_HREF } from "@/lib/utils";
 import CTABanner from "@/components/ui/CTABanner";
 

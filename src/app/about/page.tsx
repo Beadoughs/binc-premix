@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
-import Link from "next/link";
-import { CheckCircle2, ArrowRight, Phone, Award, Users, MapPin, Clock } from "lucide-react";
+import { CheckCircle2, Phone, Award, Users, MapPin, Clock } from "lucide-react";
 import { PHONE_HREF, PHONE, STATS } from "@/lib/utils";
 import SectionHeader from "@/components/ui/SectionHeader";
 import CTABanner from "@/components/ui/CTABanner";

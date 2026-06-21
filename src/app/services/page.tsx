@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import type { ElementType } from "react";
 import Link from "next/link";
-import { Home, Building2, Truck, Package, ArrowRight, CheckCircle2, Phone } from "lucide-react";
+import { Home, Building2, Truck, Package, CheckCircle2, Phone } from "lucide-react";
 import { SERVICES, PHONE, PHONE_HREF } from "@/lib/utils";
 import CTABanner from "@/components/ui/CTABanner";
 

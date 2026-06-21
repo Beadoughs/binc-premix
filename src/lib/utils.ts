@@ -5,11 +5,11 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
-export const PHONE = "1800 246 269";
-export const PHONE_HREF = "tel:1800246269";
+export const PHONE = "03 6331 0000";
+export const PHONE_HREF = "tel:0363310000";
 export const EMAIL = "info@bincpremix.com.au";
 export const EMAIL_HREF = "mailto:info@bincpremix.com.au";
-export const ADDRESS = "Serving Greater Sydney, NSW & Surrounding Regions";
+export const ADDRESS = "Launceston, Tasmania";
 export const ABN = "ABN: 12 345 678 901";
 
 export const NAV_LINKS = [
@@ -26,54 +26,48 @@ export const SERVICES = [
     title: "Residential Concreting",
     shortTitle: "Residential",
     icon: "Home",
-    tagline: "Premium concrete solutions for your home",
+    tagline: "Quality concrete for your home",
     description:
-      "From driveways and pathways to patios, pool surrounds and shed slabs — BINC delivers flawless residential concrete work that enhances your property's value and kerb appeal.",
+      "From driveways and pathways to patios and shed slabs — BINC delivers quality residential concrete work across Launceston and Northern Tasmania.",
     features: [
       "Exposed aggregate driveways",
-      "Coloured & decorative concrete",
+      "Coloured & plain concrete",
       "Pathways & footpaths",
       "Patios & entertaining areas",
-      "Pool surrounds & coping",
       "Shed & garage slabs",
       "Retaining walls",
-      "Stencil concrete",
     ],
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1635424710928-0544e8512eae?w=800&q=80",
   },
   {
     slug: "commercial-concreting",
     title: "Commercial Concreting",
     shortTitle: "Commercial",
     icon: "Building2",
-    tagline: "Industrial-grade concrete for commercial projects",
+    tagline: "Reliable concrete for commercial projects",
     description:
-      "BINC handles large-scale commercial concreting for warehouses, car parks, retail precincts, and office developments. We deliver on time, on spec, and on budget.",
+      "BINC handles commercial concreting for warehouses, car parks, retail and industrial developments across Launceston and the surrounding region.",
     features: [
       "Warehouse & factory floors",
       "Car parks & hardstands",
       "Loading docks & ramps",
-      "Tilt-up slab preparation",
       "Retail & office developments",
       "Footpath & kerb construction",
-      "Concrete paving",
       "High-strength mix design",
     ],
-    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1590699168571-c7b47b55eded?w=800&q=80",
   },
   {
     slug: "civil-concreting",
     title: "Civil & Infrastructure",
     shortTitle: "Civil",
     icon: "Truck",
-    tagline: "Engineered solutions for infrastructure projects",
+    tagline: "Concrete solutions for civil projects",
     description:
-      "Our civil division delivers engineered concrete solutions for roads, bridges, drainage, and public infrastructure — meeting council and government specifications.",
+      "Civil concrete works for roads, drainage, kerbing and public infrastructure — meeting council and government specifications throughout Northern Tasmania.",
     features: [
       "Road construction & kerbing",
       "Drainage & culverts",
-      "Footbridges & structures",
-      "Retaining structures",
       "Council & government projects",
       "Earthworks & sub-base",
       "Stormwater infrastructure",
@@ -88,18 +82,16 @@ export const SERVICES = [
     icon: "Cylinder",
     tagline: "Quality premix concrete delivered to site",
     description:
-      "We supply premium premix concrete in a full range of strengths and mixes — delivered directly to your site anywhere in Greater Sydney and surrounds.",
+      "We supply premium premix concrete in a full range of strengths and mixes — delivered directly to your site across Launceston and Northern Tasmania.",
     features: [
       "All strength grades (20MPa – 65MPa)",
       "Exposed aggregate mixes",
       "Coloured concrete supply",
       "Fibre-reinforced concrete",
       "Pump-mix concrete",
-      "Self-compacting concrete",
       "High-early-strength mixes",
-      "Eco & recycled aggregate options",
     ],
-    image: "https://images.unsplash.com/photo-1590055531615-f16d36ffe8ec?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&q=80",
   },
 ];
 
@@ -114,29 +106,29 @@ export const TESTIMONIALS = [
   {
     name: "Michael T.",
     role: "Property Developer",
-    company: "Harrington Developments",
+    company: "Launceston, TAS",
     rating: 5,
-    text: "BINC delivered our 3,000sqm warehouse slab on time and within budget. The team was professional, the finish was immaculate, and their project management was second to none. Would not hesitate to use them again.",
+    text: "BINC delivered our warehouse slab on time and within budget. Professional team, great finish. Won't use anyone else.",
   },
   {
     name: "Sarah K.",
     role: "Homeowner",
-    company: "Kellyville, NSW",
+    company: "Norwood, TAS",
     rating: 5,
-    text: "We had BINC pour our exposed aggregate driveway, patio and pool surrounds. The result is absolutely stunning. They were on time, cleaned up perfectly, and the quality exceeded our expectations. Highly recommend!",
+    text: "Had BINC do our driveway and patio. The result looks amazing and they cleaned up perfectly. Highly recommend to anyone in Launceston.",
   },
   {
     name: "Jason P.",
     role: "Site Manager",
-    company: "BlueStar Civil",
+    company: "TasCivil Pty Ltd",
     rating: 5,
-    text: "We've used BINC on three civil projects now. Their team understands specs, hits program dates, and the work quality is consistently excellent. Our go-to concreter for anything in the Sydney metro area.",
+    text: "Used BINC on multiple civil projects. They understand specs, hit program dates, and the quality is always excellent.",
   },
   {
     name: "Amanda R.",
     role: "Builder",
-    company: "Renova Constructions",
+    company: "Northern Tas Constructions",
     rating: 5,
-    text: "Fast quote, competitive pricing, and top-quality workmanship. BINC did all the concrete for our residential duplex development and it was seamless from start to finish.",
+    text: "Fast quote, fair pricing and great workmanship. BINC handled all the concrete on our duplex development without a hitch.",
   },
 ];

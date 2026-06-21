@@ -10,17 +10,17 @@ const config: Config = {
     extend: {
       colors: {
         brand: {
-          50:  "#fff8ed",
-          100: "#ffeed5",
-          200: "#ffd9aa",
-          300: "#ffbe74",
-          400: "#ff9a3c",
-          500: "#ff7c16",
-          600: "#f0610c",
-          700: "#c7490c",
-          800: "#9e3a12",
-          900: "#7f3212",
-          950: "#451607",
+          50:  "#fff1f2",
+          100: "#ffe4e6",
+          200: "#fecdd3",
+          300: "#fda4af",
+          400: "#fb7185",
+          500: "#f43f5e",
+          600: "#e11d48",
+          700: "#be123c",
+          800: "#9f1239",
+          900: "#881337",
+          950: "#4c0519",
         },
         concrete: {
           50:  "#f7f7f7",
@@ -48,7 +48,7 @@ const config: Config = {
       },
       backgroundImage: {
         "hero-pattern": "linear-gradient(135deg, #0f1117 0%, #1a1d27 50%, #252836 100%)",
-        "cta-pattern": "linear-gradient(135deg, #ff7c16 0%, #f0610c 50%, #c7490c 100%)",
+        "cta-pattern": "linear-gradient(135deg, #e11d48 0%, #be123c 50%, #9f1239 100%)",
         "concrete-texture": "url('/textures/concrete.svg')",
       },
       animation: {

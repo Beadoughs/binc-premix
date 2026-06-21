@@ -44,24 +44,6 @@ export default function Header() {
 
   return (
     <>
-      {/* Top bar */}
-      <div className="bg-dark text-white text-xs py-2 hidden md:block">
-        <div className="container-xl flex justify-between items-center">
-          <span className="text-concrete-400">
-            Serving Greater Sydney, NSW & Surrounding Regions
-          </span>
-          <div className="flex items-center gap-6">
-            <a href="mailto:info@bincpremix.com.au" className="text-concrete-400 hover:text-white transition-colors">
-              info@bincpremix.com.au
-            </a>
-            <a href={PHONE_HREF} className="flex items-center gap-1.5 text-brand-400 font-semibold hover:text-brand-300 transition-colors">
-              <Phone size={12} />
-              {PHONE}
-            </a>
-          </div>
-        </div>
-      </div>
-
       {/* Main nav */}
       <header
         className={cn(

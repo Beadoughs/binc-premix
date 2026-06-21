@@ -59,7 +59,7 @@ const SERVICE_FAQS: Record<string, { q: string; a: string }[]> = {
   "premix-concrete-supply": [
     {
       q: "What areas do you supply premix concrete to?",
-      a: "We supply premix concrete throughout Greater Sydney and surrounding regions including the Hills District, Penrith, Liverpool, Campbelltown, and the Blue Mountains.",
+      a: "We supply premix concrete throughout Launceston and Northern Tasmania including the Hills District, Penrith, Liverpool, Campbelltown, and the Blue Mountains.",
     },
     {
       q: "What is your minimum order for concrete supply?",
@@ -86,7 +86,7 @@ export async function generateMetadata({ params }: ServicePageProps): Promise<Me
   if (!service) return {};
   return {
     title: `${service.title} Sydney`,
-    description: `${service.description} BINC Premix Concrete — Sydney's trusted specialists. Call 1800 246 269 for a free quote.`,
+    description: `${service.description} BINC Premix Concrete — Launceston's trusted specialists. Call 1800 246 269 for a free quote.`,
     keywords: [service.title, "Sydney concreting", "NSW concrete", service.shortTitle],
   };
 }
@@ -200,16 +200,16 @@ export default async function ServicePage({ params }: ServicePageProps) {
                 </h3>
                 <div className="flex flex-wrap gap-2">
                   {[
-                    "Greater Sydney",
-                    "Hills District",
-                    "Western Sydney",
-                    "Penrith",
-                    "Liverpool",
-                    "Campbelltown",
-                    "Parramatta",
-                    "North West Sydney",
-                    "Blue Mountains",
-                    "Hawkesbury",
+                    "Launceston",
+                    "Norwood",
+                    "Kings Meadows",
+                    "Ravenswood",
+                    "Prospect",
+                    "Newnham",
+                    "St Leonards",
+                    "George Town",
+                    "Deloraine",
+                    "Northern Tasmania",
                   ].map((area) => (
                     <span key={area} className="px-2.5 py-1 bg-white border border-concrete-200 rounded-full text-xs text-concrete-600 font-medium">
                       {area}

@@ -27,7 +27,7 @@ const CONTACT_INFO = [
   {
     icon: MapPin,
     label: "Service Area",
-    value: "Greater Sydney & NSW",
+    value: "Launceston & NSW",
     href: null,
     description: "Including Hills District, Western Sydney, Penrith and more",
   },

@@ -8,7 +8,7 @@ import CTABanner from "@/components/ui/CTABanner";
 export const metadata: Metadata = {
   title: "Our Concreting Services",
   description:
-    "BINC Premix Concrete offers residential, commercial and civil concreting services across Greater Sydney. Driveways, slabs, warehouse floors, civil infrastructure and premium premix supply.",
+    "BINC Premix Concrete offers residential, commercial and civil concreting services across Launceston. Driveways, slabs, warehouse floors, civil infrastructure and premium premix supply.",
 };
 
 const ICONS: Record<string, ElementType> = {

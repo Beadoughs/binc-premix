@@ -8,7 +8,7 @@ import CTABanner from "@/components/ui/CTABanner";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Learn about BINC Premix Concrete — Sydney's trusted concreting specialists with 15+ years experience in residential, commercial and civil concreting across Greater Sydney.",
+    "Learn about BINC Premix Concrete — Launceston's trusted concreting specialists with 15+ years experience in residential, commercial and civil concreting across Launceston.",
 };
 
 const TEAM = [
@@ -82,7 +82,7 @@ export default function AboutPage() {
             Sydney&apos;s Trusted <span className="text-brand-500">Concrete Specialists</span>
           </h1>
           <p className="text-concrete-300 text-xl max-w-2xl mx-auto">
-            15+ years of delivering premium concrete work across Greater Sydney. Family business, professional standards, exceptional results.
+            15+ years of delivering premium concrete work across Launceston. Family business, professional standards, exceptional results.
           </p>
         </div>
       </section>
@@ -107,7 +107,7 @@ export default function AboutPage() {
                   Starting with a single crew and a truck, BINC quickly built a reputation for showing up on time, doing what was promised, and delivering a quality of finish that set us apart. Word spread fast among Sydney builders and homeowners alike.
                 </p>
                 <p>
-                  Today, BINC operates multiple crews across residential, commercial and civil sectors, servicing Greater Sydney and surrounding regions. We&apos;ve completed over 500 projects, from backyard driveways to multi-million dollar commercial developments.
+                  Today, BINC operates multiple crews across residential, commercial and civil sectors, servicing Launceston and Northern Tasmania. We&apos;ve completed over 500 projects, from backyard driveways to multi-million dollar commercial developments.
                 </p>
                 <p>
                   Despite our growth, we&apos;ve never lost sight of what made us successful: treating every project as if it were our own, and every client as if they were family.
@@ -235,14 +235,14 @@ export default function AboutPage() {
         <div className="container-xl text-center">
           <h2 className="text-2xl font-extrabold text-dark mb-3">Our Service Area</h2>
           <p className="text-concrete-500 text-sm mb-8 max-w-xl mx-auto">
-            BINC services Greater Sydney and surrounding regions. If you&apos;re not sure whether we cover your area, just give us a call — we&apos;ll let you know.
+            BINC services Launceston and Northern Tasmania. If you&apos;re not sure whether we cover your area, just give us a call — we&apos;ll let you know.
           </p>
           <div className="flex flex-wrap gap-2 justify-center max-w-3xl mx-auto">
             {[
-              "Greater Sydney", "Hills District", "Blacktown", "Parramatta", "Penrith",
-              "Liverpool", "Campbelltown", "Kellyville", "Castle Hill", "Rouse Hill",
-              "Norwest", "Windsor", "Richmond", "Blue Mountains", "Hawkesbury",
-              "North West Sydney", "Western Sydney", "South West Sydney", "Camden", "Wollondilly",
+              "Launceston", "Norwood", "Kings Meadows", "Ravenswood", "Prospect",
+              "Newnham", "St Leonards", "Mayfield", "Rocherlea", "Invermay",
+              "George Town", "Deloraine", "Evandale", "Perth", "Longford",
+              "Westbury", "Hadspen", "Legana", "Exeter", "Northern Tasmania",
             ].map((area) => (
               <div key={area} className="flex items-center gap-1.5 px-3 py-2 bg-concrete-50 border border-concrete-200 rounded-full text-sm text-concrete-600">
                 <MapPin size={11} className="text-brand-500" />

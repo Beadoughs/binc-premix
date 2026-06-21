@@ -6,108 +6,75 @@ import CTABanner from "@/components/ui/CTABanner";
 export const metadata: Metadata = {
   title: "Our Projects",
   description:
-    "Explore BINC Premix Concrete's portfolio of completed residential, commercial and civil concreting projects across Greater Sydney and NSW.",
+    "Explore BINC Premix Concrete's portfolio of completed residential, commercial and civil concreting projects across Launceston and Northern Tasmania.",
 };
 
 const ALL_PROJECTS = [
   {
-    slug: "kellyville-driveway",
+    slug: "driveway-norwood",
     title: "Exposed Aggregate Driveway",
     category: "Residential",
-    location: "Kellyville, NSW",
-    description: "Premium exposed aggregate driveway with matching pathways and patio entertainment area. 280sqm total. Pea gravel aggregate with natural stone tones.",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
-    size: "3,200m²",
+    location: "Norwood, TAS",
+    description: "Exposed aggregate driveway and pathway with matching front patio. Natural stone tones to complement the home facade.",
+    image: "https://images.unsplash.com/photo-1635424710928-0544e8512eae?w=800&q=80",
+    size: "180m²",
+    duration: "3 days",
+    year: "2025",
+  },
+  {
+    slug: "warehouse-slab-launceston",
+    title: "Warehouse Floor Slab",
+    category: "Commercial",
+    location: "Launceston, TAS",
+    description: "Steel-trowelled industrial floor slab for a local logistics warehouse. Power-float finish with control joints.",
+    image: "https://images.unsplash.com/photo-1590699168571-c7b47b55eded?w=800&q=80",
+    size: "1,800m²",
+    duration: "6 days",
+    year: "2025",
+  },
+  {
+    slug: "patio-kings-meadows",
+    title: "Coloured Concrete Patio",
+    category: "Residential",
+    location: "Kings Meadows, TAS",
+    description: "Charcoal oxide-coloured concrete entertaining area with sawn control joints and exposed aggregate border.",
+    image: "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&q=80",
+    size: "95m²",
+    duration: "2 days",
+    year: "2025",
+  },
+  {
+    slug: "carpark-launceston",
+    title: "Commercial Car Park",
+    category: "Commercial",
+    location: "Launceston, TAS",
+    description: "Plain concrete car park hardstand with line marking prep and stormwater drainage.",
+    image: "https://images.unsplash.com/photo-1590055531615-f16d36ffe8ec?w=800&q=80",
+    size: "650m²",
     duration: "4 days",
     year: "2024",
   },
   {
-    slug: "penrith-warehouse",
-    title: "Industrial Warehouse Slab",
-    category: "Commercial",
-    location: "Penrith, NSW",
-    description: "Super-flat F-number 40/30 industrial floor slab for a major logistics and distribution warehouse.",
-    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80",
-    size: "3,200m²",
-    duration: "8 days",
-    year: "2024",
-  },
-  {
-    slug: "parramatta-carpark",
-    title: "Multi-Level Car Park Deck",
-    category: "Commercial",
-    location: "Parramatta, NSW",
-    description: "Post-tensioned concrete deck construction for 420-space commercial car park facility.",
-    image: "https://images.unsplash.com/photo-1590055531615-f16d36ffe8ec?w=800&q=80",
-    size: "4,800m²",
-    duration: "12 days",
-    year: "2024",
-  },
-  {
-    slug: "north-west-road",
-    title: "Road Infrastructure Works",
-    category: "Civil",
-    location: "Norwest, NSW",
-    description: "450m of concrete kerb and gutter plus 800m² of footpath construction for council subdivision development.",
-    image: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&q=80",
-    size: "Lineal 450m",
-    duration: "6 days",
-    year: "2024",
-  },
-  {
-    slug: "castle-hill-pool",
-    title: "Pool Surrounds & Entertaining",
+    slug: "shed-slab-ravenswood",
+    title: "Shed & Garage Slab",
     category: "Residential",
-    location: "Castle Hill, NSW",
-    description: "Honed concrete pool surrounds, feature steps and entertaining area with integrated garden edging.",
-    image: "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=800&q=80",
-    size: "180m²",
+    location: "Ravenswood, TAS",
+    description: "Reinforced concrete slab for a large residential shed with broom finish and isolation joints.",
+    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80",
+    size: "120m²",
+    duration: "1 day",
+    year: "2024",
+  },
+  {
+    slug: "footpath-council",
+    title: "Council Footpath Works",
+    category: "Civil",
+    location: "Launceston, TAS",
+    description: "New footpath construction along residential street — 200m of 125mm concrete path to council spec.",
+    image: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&q=80",
+    size: "200m",
     duration: "3 days",
     year: "2024",
-  },
-  {
-    slug: "baulkham-hills-driveway",
-    title: "Coloured Concrete Driveway",
-    category: "Residential",
-    location: "Baulkham Hills, NSW",
-    description: "Oxide-coloured concrete driveway and pathway in charcoal finish with sawn jointing.",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80",
-    size: "120m²",
-    duration: "2 days",
-    year: "2023",
-  },
-  {
-    slug: "blacktown-retail",
-    title: "Retail Precinct Paving",
-    category: "Commercial",
-    location: "Blacktown, NSW",
-    description: "External concrete paving and hardstand for new retail strip development — 650sqm exposed aggregate.",
-    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&q=80",
-    size: "650m²",
-    duration: "5 days",
-    year: "2023",
-  },
-  {
-    slug: "penrith-drainage",
-    title: "Stormwater Drainage Works",
-    category: "Civil",
-    location: "Penrith, NSW",
-    description: "Box culvert and drainage channel construction for council stormwater management upgrade.",
-    image: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=600&q=80",
-    size: "220m",
-    duration: "10 days",
-    year: "2023",
-  },
-  {
-    slug: "rouse-hill-shed",
-    title: "Shed Slab & Garage Floor",
-    category: "Residential",
-    location: "Rouse Hill, NSW",
-    description: "Premium steel-trowelled garage slab and separate shed pad with reinforced footings.",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80",
-    size: "95m²",
-    duration: "1 day",
-    year: "2023",
   },
 ];
 
@@ -132,7 +99,7 @@ export default function ProjectsPage() {
             Completed <span className="text-brand-500">Projects</span>
           </h1>
           <p className="text-concrete-300 text-lg max-w-2xl mx-auto">
-            Explore a selection of our recent work across residential, commercial and civil sectors throughout Greater Sydney.
+            Explore a selection of our recent work across residential, commercial and civil sectors throughout Launceston.
           </p>
         </div>
       </section>
@@ -233,7 +200,7 @@ export default function ProjectsPage() {
 
       <CTABanner
         title="Ready to Start Your Project?"
-        subtitle="Join hundreds of satisfied clients across Greater Sydney. Get your free quote within 24 hours."
+        subtitle="Join hundreds of satisfied clients across Launceston. Get your free quote within 24 hours."
       />
     </>
   );

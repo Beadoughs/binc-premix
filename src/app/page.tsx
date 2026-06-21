@@ -21,7 +21,7 @@ export default function HomePage() {
       <WhyChooseUs />
       <CTABanner
         title="Need a Concrete Quote Fast?"
-        subtitle="Our team provides free, detailed quotes within 24 hours. No obligation, no pressure — just honest pricing from Sydney's trusted concreting specialists."
+        subtitle="Our team provides free, detailed quotes within 24 hours. No obligation, no pressure — just honest pricing from Launceston's trusted concreting specialists."
       />
       <ProjectsShowcase />
       <ProcessSteps />

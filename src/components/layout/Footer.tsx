@@ -22,7 +22,7 @@ export default function Footer() {
               </div>
             </Link>
             <p className="text-concrete-400 text-sm leading-relaxed mb-5">
-              Sydney&apos;s trusted premix concrete specialist for residential, commercial, and civil projects. Quality mixes. Expert placement. Guaranteed results.
+              Launceston&apos;s trusted premix concrete specialist for residential, commercial, and civil projects across Northern Tasmania.
             </p>
             <div className="flex items-center gap-3">
               <a
@@ -141,7 +141,7 @@ export default function Footer() {
                   </div>
                   <div>
                     <p className="text-xs text-concrete-500 uppercase tracking-wider">Service Area</p>
-                    <span className="text-white text-sm">Greater Sydney & NSW</span>
+                    <span className="text-white text-sm">Launceston & Northern Tasmania</span>
                   </div>
                 </div>
               </li>

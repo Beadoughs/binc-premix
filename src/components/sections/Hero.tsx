@@ -14,14 +14,12 @@ export default function Hero() {
     <section className="relative overflow-hidden bg-hero-pattern">
       <div className="absolute top-0 left-0 right-0 h-1 bg-cta-pattern" />
 
-      {/* Background concrete image */}
+      {/* Background fleet image */}
       <div
-        className="absolute inset-0 opacity-20 bg-center bg-cover"
-        style={{
-          backgroundImage: `url('https://images.unsplash.com/photo-1635424710928-0544e8512eae?w=1400&q=80')`,
-        }}
+        className="absolute inset-0 bg-center bg-cover"
+        style={{ backgroundImage: `url('/hero-fleet.jpg')` }}
       />
-      <div className="absolute inset-0 bg-dark/80" />
+      <div className="absolute inset-0 bg-dark/65" />
 
       <div className="relative container-xl py-24 lg:py-36">
         <div className="max-w-3xl">

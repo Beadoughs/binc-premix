@@ -71,13 +71,13 @@ export default function Footer() {
                 </li>
               ))}
               <li>
-                <Link
-                  href="/quote"
+                <a
+                  href={PHONE_HREF}
                   className="flex items-center gap-2 text-brand-400 hover:text-brand-300 text-sm font-semibold transition-colors mt-1"
                 >
-                  <ArrowRight size={12} />
-                  Get a Free Quote
-                </Link>
+                  <Phone size={12} />
+                  {PHONE}
+                </a>
               </li>
             </ul>
           </div>

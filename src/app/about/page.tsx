@@ -115,12 +115,9 @@ export default function AboutPage() {
               </div>
 
               <div className="flex flex-col sm:flex-row gap-3 mt-8">
-                <Link href="/quote" className="btn-primary py-3 px-6">
-                  Get a Free Quote <ArrowRight size={16} />
-                </Link>
-                <a href={PHONE_HREF} className="btn-secondary py-3 px-6 text-sm">
+                <a href={PHONE_HREF} className="btn-primary py-3 px-6">
                   <Phone size={15} />
-                  Call {PHONE}
+                  Call Us — {PHONE}
                 </a>
               </div>
             </div>

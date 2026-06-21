@@ -135,20 +135,15 @@ export default function Header() {
               )}
             </nav>
 
-            {/* Desktop CTAs */}
-            <div className="hidden lg:flex items-center gap-3">
+            {/* Desktop CTA */}
+            <div className="hidden lg:flex items-center">
               <a
                 href={PHONE_HREF}
-                className="flex items-center gap-2 text-sm font-bold text-dark hover:text-brand-600 transition-colors"
+                className="btn-primary text-sm py-2.5 px-5 gap-2"
               >
-                <div className="flex items-center justify-center w-8 h-8 bg-brand-100 rounded-full">
-                  <Phone size={14} className="text-brand-600" />
-                </div>
+                <Phone size={14} />
                 {PHONE}
               </a>
-              <Link href="/quote" className="btn-primary text-sm py-2.5 px-5">
-                Free Quote
-              </Link>
             </div>
 
             {/* Mobile hamburger */}
@@ -223,14 +218,11 @@ export default function Header() {
             </nav>
 
             {/* Mobile CTA */}
-            <div className="px-4 py-5 border-t border-concrete-100 space-y-3">
-              <a href={PHONE_HREF} className="flex items-center justify-center gap-2 w-full py-3 bg-concrete-100 hover:bg-concrete-200 rounded-xl font-bold text-dark transition-colors">
-                <Phone size={16} className="text-brand-600" />
+            <div className="px-4 py-5 border-t border-concrete-100">
+              <a href={PHONE_HREF} className="btn-primary w-full justify-center text-base gap-2">
+                <Phone size={16} />
                 Call {PHONE}
               </a>
-              <Link href="/quote" className="btn-primary w-full justify-center text-base">
-                Get a Free Quote
-              </Link>
             </div>
           </div>
         </div>

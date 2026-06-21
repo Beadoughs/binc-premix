@@ -34,12 +34,8 @@ export default function ServicesPage() {
           <p className="text-concrete-300 text-lg max-w-2xl mx-auto mb-8">
             From residential driveways to large-scale civil infrastructure — BINC delivers expert concrete solutions for every project type and scale.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/quote" className="btn-primary text-base py-3.5 px-8">
-              Get a Free Quote
-              <ArrowRight size={18} />
-            </Link>
-            <a href={PHONE_HREF} className="btn-outline-white text-base py-3.5 px-8">
+          <div className="flex justify-center">
+            <a href={PHONE_HREF} className="btn-primary text-base py-3.5 px-8">
               <Phone size={18} />
               Call {PHONE}
             </a>
@@ -97,10 +93,10 @@ export default function ServicesPage() {
                   </div>
 
                   <div className="flex flex-col sm:flex-row gap-3">
-                    <Link href="/quote" className="btn-primary py-3 px-6">
-                      Get a Quote
-                      <ArrowRight size={16} />
-                    </Link>
+                    <a href={PHONE_HREF} className="btn-primary py-3 px-6">
+                      <Phone size={15} />
+                      Call {PHONE}
+                    </a>
                     <Link href={`/services/${service.slug}`} className="btn-secondary py-3 px-6 text-sm">
                       Learn More
                     </Link>

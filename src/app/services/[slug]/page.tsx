@@ -131,10 +131,7 @@ export default async function ServicePage({ params }: ServicePageProps) {
             </h1>
             <p className="text-concrete-300 text-xl mb-8 leading-relaxed">{service.tagline}</p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/quote" className="btn-primary text-base py-3.5 px-8">
-                Get a Free Quote <ArrowRight size={18} />
-              </Link>
-              <a href={PHONE_HREF} className="btn-outline-white text-base py-3.5 px-8">
+              <a href={PHONE_HREF} className="btn-primary text-base py-3.5 px-8">
                 <Phone size={18} />
                 Call {PHONE}
               </a>
@@ -166,9 +163,10 @@ export default async function ServicePage({ params }: ServicePageProps) {
               </div>
 
               <div className="flex flex-col sm:flex-row gap-3">
-                <Link href="/quote" className="btn-primary py-3 px-6">
-                  Request a Quote <ArrowRight size={16} />
-                </Link>
+                <a href={PHONE_HREF} className="btn-primary py-3 px-6">
+                  <Phone size={15} />
+                  Call {PHONE}
+                </a>
                 <Link href="/contact" className="btn-secondary py-3 px-6 text-sm">
                   Contact Us
                 </Link>
@@ -179,16 +177,13 @@ export default async function ServicePage({ params }: ServicePageProps) {
             <div className="space-y-5">
               {/* Quick contact card */}
               <div className="bg-dark rounded-2xl p-6 text-white">
-                <h3 className="font-bold text-lg mb-4">Ready to Start?</h3>
+                <h3 className="font-bold text-lg mb-3">Ready to Start?</h3>
                 <p className="text-concrete-400 text-sm mb-5">
-                  Get a free, no-obligation quote for your {service.shortTitle.toLowerCase()} project. We typically respond within 24 hours.
+                  Give us a call to discuss your {service.shortTitle.toLowerCase()} project. We&apos;re happy to help.
                 </p>
-                <Link href="/quote" className="btn-primary w-full justify-center mb-3">
-                  Get Free Quote <ArrowRight size={16} />
-                </Link>
-                <a href={PHONE_HREF} className="flex items-center justify-center gap-2 text-brand-400 hover:text-brand-300 font-semibold text-sm transition-colors">
-                  <Phone size={14} />
-                  Or call {PHONE}
+                <a href={PHONE_HREF} className="btn-primary w-full justify-center">
+                  <Phone size={15} />
+                  Call {PHONE}
                 </a>
               </div>
 

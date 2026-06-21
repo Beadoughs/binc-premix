@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ArrowLeft, MapPin, Calendar, Ruler, Clock, ArrowRight } from "lucide-react";
+import { ArrowLeft, MapPin, Calendar, Ruler, Clock, Phone } from "lucide-react";
+import { PHONE, PHONE_HREF } from "@/lib/utils";
 import CTABanner from "@/components/ui/CTABanner";
 
 const ALL_PROJECTS = [
@@ -197,10 +198,11 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
 
               <div className="bg-dark rounded-2xl p-6 text-white">
                 <h3 className="font-bold text-lg mb-3">Want a Similar Project?</h3>
-                <p className="text-concrete-400 text-sm mb-5">Contact us for a free site visit and quote. We&apos;ll have pricing back to you within 24 hours.</p>
-                <Link href="/quote" className="btn-primary w-full justify-center text-sm">
-                  Get a Free Quote <ArrowRight size={15} />
-                </Link>
+                <p className="text-concrete-400 text-sm mb-5">Give us a call to discuss what you need.</p>
+                <a href={PHONE_HREF} className="btn-primary w-full justify-center text-sm">
+                  <Phone size={15} />
+                  Call {PHONE}
+                </a>
               </div>
             </div>
           </div>

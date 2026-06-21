@@ -1,5 +1,4 @@
-import Link from "next/link";
-import { Phone, ArrowRight, CheckCircle2 } from "lucide-react";
+import { Phone, CheckCircle2 } from "lucide-react";
 import { PHONE, PHONE_HREF } from "@/lib/utils";
 
 const TRUST_ITEMS = [
@@ -49,13 +48,9 @@ export default function Hero() {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4">
-            <Link href="/quote" className="btn-primary text-base py-4 px-8">
-              Get a Free Quote
-              <ArrowRight size={18} />
-            </Link>
-            <a href={PHONE_HREF} className="btn-outline-white text-base py-4 px-8">
+            <a href={PHONE_HREF} className="btn-primary text-base py-4 px-8">
               <Phone size={18} />
-              Call {PHONE}
+              Call Us Now — {PHONE}
             </a>
           </div>
         </div>

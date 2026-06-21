@@ -3,14 +3,13 @@ import Hero from "@/components/sections/Hero";
 import ServicesGrid from "@/components/sections/ServicesGrid";
 import WhyChooseUs from "@/components/sections/WhyChooseUs";
 import ProjectsShowcase from "@/components/sections/ProjectsShowcase";
-import ProcessSteps from "@/components/sections/ProcessSteps";
 import Testimonials from "@/components/sections/Testimonials";
 import CTABanner from "@/components/ui/CTABanner";
 
 export const metadata: Metadata = {
-  title: "BINC Premix Concrete | Sydney's Trusted Concreting Specialists",
+  title: "BINC Premix Concrete | Launceston Concreting Specialists",
   description:
-    "BINC Premix Concrete — Sydney's premium concreting contractor for residential, commercial and civil projects. Expert premix supply, professional placement. Call 1800 246 269 for a free quote.",
+    "BINC Premix Concrete — quality residential and commercial concreting across Launceston and Northern Tasmania. Call 03 6331 0000.",
 };
 
 export default function HomePage() {
@@ -19,12 +18,7 @@ export default function HomePage() {
       <Hero />
       <ServicesGrid />
       <WhyChooseUs />
-      <CTABanner
-        title="Need a Concrete Quote Fast?"
-        subtitle="Our team provides free, detailed quotes within 24 hours. No obligation, no pressure — just honest pricing from Launceston's trusted concreting specialists."
-      />
       <ProjectsShowcase />
-      <ProcessSteps />
       <Testimonials />
       <CTABanner />
     </>

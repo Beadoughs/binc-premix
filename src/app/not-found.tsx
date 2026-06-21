@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Home, ArrowRight, Phone } from "lucide-react";
+import { Home, Phone } from "lucide-react";
 import { PHONE, PHONE_HREF } from "@/lib/utils";
 
 export default function NotFound() {
@@ -16,9 +16,10 @@ export default function NotFound() {
             <Home size={16} />
             Back to Home
           </Link>
-          <Link href="/quote" className="btn-secondary py-3 px-7">
-            Get a Quote <ArrowRight size={16} />
-          </Link>
+          <a href={PHONE_HREF} className="btn-secondary py-3 px-7">
+            <Phone size={16} />
+            Call {PHONE}
+          </a>
         </div>
         <div className="mt-8 pt-8 border-t border-concrete-200">
           <p className="text-concrete-400 text-sm mb-2">Need to speak with someone?</p>
